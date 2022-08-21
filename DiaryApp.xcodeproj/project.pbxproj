@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E3A58EF28B1C6EC00F997D3 /* firstScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3A58EE28B1C6EC00F997D3 /* firstScreen.storyboard */; };
+		9E3A58F128B1C70000F997D3 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3A58F028B1C70000F997D3 /* FirstScreenViewController.swift */; };
+		9E3A58F428B1C76100F997D3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3A58F328B1C76100F997D3 /* BaseViewController.swift */; };
+		9E3A58F628B1C76E00F997D3 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3A58F528B1C76E00F997D3 /* BaseView.swift */; };
+		9E3A58F828B1C7BD00F997D3 /* FirstScreenTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3A58F728B1C7BD00F997D3 /* FirstScreenTextField.swift */; };
+		9E3A58FA28B1C9A600F997D3 /* FirstScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3A58F928B1C9A600F997D3 /* FirstScreenView.swift */; };
+		9E3A58FD28B1CE9F00F997D3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9E3A58FC28B1CE9F00F997D3 /* SnapKit */; };
+		9E3A58FF28B1D4E100F997D3 /* SecondScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3A58FE28B1D4E100F997D3 /* SecondScreenView.swift */; };
+		9E3A590128B1D4E900F997D3 /* SecondScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3A590028B1D4E900F997D3 /* SecondScreen.storyboard */; };
+		9E3A590328B1D4FB00F997D3 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3A590228B1D4FB00F997D3 /* SecondScreenViewController.swift */; };
 		9EC92FC128B19E230076172D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC92FC028B19E230076172D /* AppDelegate.swift */; };
 		9EC92FC328B19E230076172D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC92FC228B19E230076172D /* SceneDelegate.swift */; };
 		9EC92FC528B19E230076172D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC92FC428B19E230076172D /* ViewController.swift */; };
 		9EC92FC828B19E230076172D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC92FC628B19E230076172D /* Main.storyboard */; };
 		9EC92FCA28B19E250076172D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC92FC928B19E250076172D /* Assets.xcassets */; };
 		9EC92FCD28B19E250076172D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC92FCB28B19E250076172D /* LaunchScreen.storyboard */; };
+		9EC92FDA28B1A15C0076172D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9EC92FD928B1A15C0076172D /* .gitignore */; };
+		9EC92FDC28B1A1690076172D /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC92FDB28B1A1690076172D /* APIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E3A58EE28B1C6EC00F997D3 /* firstScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = firstScreen.storyboard; sourceTree = "<group>"; };
+		9E3A58F028B1C70000F997D3 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
+		9E3A58F328B1C76100F997D3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9E3A58F528B1C76E00F997D3 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		9E3A58F728B1C7BD00F997D3 /* FirstScreenTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenTextField.swift; sourceTree = "<group>"; };
+		9E3A58F928B1C9A600F997D3 /* FirstScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenView.swift; sourceTree = "<group>"; };
+		9E3A58FE28B1D4E100F997D3 /* SecondScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenView.swift; sourceTree = "<group>"; };
+		9E3A590028B1D4E900F997D3 /* SecondScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondScreen.storyboard; sourceTree = "<group>"; };
+		9E3A590228B1D4FB00F997D3 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
 		9EC92FBD28B19E230076172D /* DiaryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC92FC028B19E230076172D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EC92FC228B19E230076172D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,8 @@
 		9EC92FC928B19E250076172D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EC92FCC28B19E250076172D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EC92FCE28B19E250076172D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC92FD928B1A15C0076172D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		9EC92FDB28B1A1690076172D /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +54,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3A58FD28B1CE9F00F997D3 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E3A58EC28B1C6CE00F997D3 /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9E3A58EE28B1C6EC00F997D3 /* firstScreen.storyboard */,
+				9E3A58F028B1C70000F997D3 /* FirstScreenViewController.swift */,
+				9E3A58F928B1C9A600F997D3 /* FirstScreenView.swift */,
+				9E3A58F728B1C7BD00F997D3 /* FirstScreenTextField.swift */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		9E3A58ED28B1C6DC00F997D3 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9E3A590028B1D4E900F997D3 /* SecondScreen.storyboard */,
+				9E3A58FE28B1D4E100F997D3 /* SecondScreenView.swift */,
+				9E3A590228B1D4FB00F997D3 /* SecondScreenViewController.swift */,
+			);
+			path = SecondScreen;
+			sourceTree = "<group>";
+		};
+		9E3A58F228B1C75600F997D3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9E3A58F328B1C76100F997D3 /* BaseViewController.swift */,
+				9E3A58F528B1C76E00F997D3 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		9EC92FB428B19E230076172D = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +110,28 @@
 		9EC92FBF28B19E230076172D /* DiaryApp */ = {
 			isa = PBXGroup;
 			children = (
-				9EC92FC028B19E230076172D /* AppDelegate.swift */,
-				9EC92FC228B19E230076172D /* SceneDelegate.swift */,
+				9E3A58F228B1C75600F997D3 /* Base */,
+				9E3A58EC28B1C6CE00F997D3 /* FirstScreen */,
+				9E3A58ED28B1C6DC00F997D3 /* SecondScreen */,
 				9EC92FC428B19E230076172D /* ViewController.swift */,
 				9EC92FC628B19E230076172D /* Main.storyboard */,
+				9EC92FDD28B1A1C60076172D /* APIKey */,
+				9EC92FC028B19E230076172D /* AppDelegate.swift */,
+				9EC92FC228B19E230076172D /* SceneDelegate.swift */,
 				9EC92FC928B19E250076172D /* Assets.xcassets */,
 				9EC92FCB28B19E250076172D /* LaunchScreen.storyboard */,
+				9EC92FD928B1A15C0076172D /* .gitignore */,
 				9EC92FCE28B19E250076172D /* Info.plist */,
 			);
 			path = DiaryApp;
+			sourceTree = "<group>";
+		};
+		9EC92FDD28B1A1C60076172D /* APIKey */ = {
+			isa = PBXGroup;
+			children = (
+				9EC92FDB28B1A1690076172D /* APIKey.swift */,
+			);
+			path = APIKey;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +150,9 @@
 			dependencies = (
 			);
 			name = DiaryApp;
+			packageProductDependencies = (
+				9E3A58FC28B1CE9F00F997D3 /* SnapKit */,
+			);
 			productName = DiaryApp;
 			productReference = 9EC92FBD28B19E230076172D /* DiaryApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +181,9 @@
 				Base,
 			);
 			mainGroup = 9EC92FB428B19E230076172D;
+			packageReferences = (
+				9E3A58FB28B1CE9F00F997D3 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 9EC92FBE28B19E230076172D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3A590128B1D4E900F997D3 /* SecondScreen.storyboard in Resources */,
+				9E3A58EF28B1C6EC00F997D3 /* firstScreen.storyboard in Resources */,
+				9EC92FDA28B1A15C0076172D /* .gitignore in Resources */,
 				9EC92FCD28B19E250076172D /* LaunchScreen.storyboard in Resources */,
 				9EC92FCA28B19E250076172D /* Assets.xcassets in Resources */,
 				9EC92FC828B19E230076172D /* Main.storyboard in Resources */,
@@ -138,9 +214,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3A590328B1D4FB00F997D3 /* SecondScreenViewController.swift in Sources */,
 				9EC92FC528B19E230076172D /* ViewController.swift in Sources */,
 				9EC92FC128B19E230076172D /* AppDelegate.swift in Sources */,
+				9E3A58FF28B1D4E100F997D3 /* SecondScreenView.swift in Sources */,
+				9EC92FDC28B1A1690076172D /* APIKey.swift in Sources */,
+				9E3A58FA28B1C9A600F997D3 /* FirstScreenView.swift in Sources */,
 				9EC92FC328B19E230076172D /* SceneDelegate.swift in Sources */,
+				9E3A58F628B1C76E00F997D3 /* BaseView.swift in Sources */,
+				9E3A58F128B1C70000F997D3 /* FirstScreenViewController.swift in Sources */,
+				9E3A58F828B1C7BD00F997D3 /* FirstScreenTextField.swift in Sources */,
+				9E3A58F428B1C76100F997D3 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +442,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9E3A58FB28B1CE9F00F997D3 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9E3A58FC28B1CE9F00F997D3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9E3A58FB28B1CE9F00F997D3 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9EC92FB528B19E230076172D /* Project object */;
 }
